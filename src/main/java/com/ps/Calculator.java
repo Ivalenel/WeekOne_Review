@@ -2,15 +2,19 @@ package com.ps;
 
 class Calculator {
     public static void main(String[] args) {
+        int sum = addition(200,500);
+        System.out.println(sum);
 
-        int num1 = 2;
-        int num2 = 4;
-        int num3 = 1;
+    }
 
     //Static add method
-
+        public static int addition(int numberone,int numbertwo){
+            return numberone+ numbertwo;
+        }
 
     //Static subtract method
+
+
 
 
     //Static multiplication
